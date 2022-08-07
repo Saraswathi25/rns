@@ -1,0 +1,134 @@
+.container {
+  
+  margin-left: 25%;
+  width: 500px;
+  height: auto;
+}
+.container_new{
+  display: block;
+  
+}
+p {
+  color: blue;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 800;
+
+  margin-top: 1px;
+}
+.member_details{
+  display: inline;
+  margin-right: 2%;
+}
+
+.label-container {
+  padding: 10px;
+  margin-top: 10px;
+  margin-top: 25px;
+}
+
+.label-name {
+  margin-bottom: 10px;
+  height: 60px;
+}
+
+input {
+  padding: 5px;
+  
+}
+
+.add_more {
+  color: black;
+  font-weight: 500;
+  float: right;
+}
+
+.btn-grad {
+  background-image: linear-gradient(to bottom, #cb2d3e 0%, #ef473a 51%, #cb2d3e 100%)
+}
+
+.btn-grad {
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  float: right;
+  margin-left: 35px;
+  padding: 8px;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.dropdown {
+ 
+  padding: 5px;
+  width: 35%;
+}
+
+table,
+td,
+th {
+
+  text-align: left;
+}
+
+table {
+  width: 100%;
+}
+
+th,
+td {
+  padding: 15px;
+  font-weight: 500;
+}
+
+th {
+  color: black
+}
+
+td {
+  color: grey;
+}
+
+
+.member_name {
+  float: left;
+}
+span{
+  color:  rgb(61, 60, 60);
+  display:inline;
+  font-size: large;
+  position: relative;
+ 
+  left: 40%;
+    bottom: 49px;
+}
+.modal{
+  border: 1px  solid black;
+  width: 50%;
+  height: auto;
+  margin-left:25%;
+  margin-top:3%;
+}
+.datepicker{
+  background-image: url("../../assets/calander.png");
+  background-size: 20%;
+  background-repeat: no-repeat;
+}
+.totalAmount{
+  float: right;
+  padding-right: 9%;
+ h5{
+   display: inline;
+   margin-right: 15%;
+ }
+}

@@ -1,0 +1,58 @@
+.container{
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 500px;
+    height: 200px;
+ }
+ p{
+     color: blue;
+     font-size: 25px;
+     font-style: italic;
+     font-weight: 800;
+    float: left;
+     margin: 0px;
+ }
+ .btn-grad {
+    background-image: linear-gradient(to bottom, #cb2d3e 0%, #ef473a 51%, #cb2d3e 100%)
+  }
+  
+  .btn-grad {
+   
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+   
+    margin-left: 35px;
+    padding: 8px;
+  }
+  
+  .btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ .label-container{
+     padding: 10px;
+     margin-top: 10px;
+     margin-top: 25px;
+ }
+ .label-name{
+     margin-bottom: 10px;
+ }
+ button{
+    color: white;
+    background-color: red;
+    
+    float: right;
+    margin-left: 35px;
+    padding: 8px;
+}
+input{
+    padding: 5px;
+    margin-left: 10px;
+}

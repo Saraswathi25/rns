@@ -1,0 +1,52 @@
+<app-header></app-header>
+<div class="label-container">
+  <div class="label-name">
+    <p>Movie Search</p>
+  </div>
+  <div class="container">
+    <div class="label-name">
+      <p class="memberName">Video Name:</p>  
+       <p class="memberName" style="color:black;"> {{memberName}}</p>
+    
+    </div>
+    <div class="label-name">
+      <p>Language</p>
+      
+      <select #myDropDownList class="dropdown" (change)="update($event.target.value)">
+        <option [value]="language"> Select</option>
+        <option *ngFor="let language of languages" [value]="language">
+            {{language}}
+        </option>
+    </select>
+  
+    </div>
+    <div>
+      <button  class="btn-grad"  (click)="movieRent()">GO</button>
+  </div>
+  </div>
+
+</div>
+
+<table class="table table-striped">
+  <thead>
+      <tr>
+        <th>Movie Name</th>
+        <th>Movie Type</th>
+        <th>Status</th>
+        <th>Available</th>
+       
+      </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of movieDetails">
+      <td>{{ user.MovieName }}</td>
+      <td>{{ user.MovieType }}</td>
+      <td [ngClass]="user.status ? 'available' : 'not_available'"></td>
+      <!-- <td *ngIf="user.status else not_available">{{ available }}</td>
+      <ng-template #not_available><td >{{ not_available }}</td></ng-template> -->
+      <td>{{ user.available }}</td>
+      <td>{{ user.language }}</td>
+      <td><img src="../../assets/continue.png" (click)="continue($event)" class="continue_button"/></td>
+    </tr>
+  </tbody>
+</table>

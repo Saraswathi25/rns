@@ -1,0 +1,20 @@
+<app-header></app-header>
+<div class="label-container">
+  <div class="label-name">
+    <p>New Member</p>
+  </div>
+  <div class="container">
+    <div class="label-name">
+      <p>Member Name:</p>  
+      <input style="margin-left: 20px;" type="text" #membername required>
+    </div>
+    <div  class="label-name">
+      <p>Member Mobile:</p>
+      <input type="text" #memberMobile  required>
+    </div>
+    <div>
+      <button  class="btn-grad"(click)="addMember(membername.value,memberMobile.value)">GO</button>
+  </div>
+  </div>
+
+</div>

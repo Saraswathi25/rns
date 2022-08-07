@@ -1,0 +1,80 @@
+{
+    "members":[
+       {
+          "Name":"Sapna",
+          "memberType":"Basic",
+          "Number":8870110909
+       },
+       {
+          "Name":"Saraswathi",
+          "memberType":"Premium",
+            "Number":8870110988
+       },
+       {
+        "Name":"Dhanvanth",
+        "memberType":"Premium",
+          "Number":9789536689
+     },
+     {
+        "Name":"Nillesh",
+        "memberType":"Basic",
+          "Number":9789776689
+     }
+     
+    ],
+       "language":[
+           "Tamil","Sinhala","English"
+       ],
+       "videoTypes":[
+        "Movie","Drama"
+       ],
+       "Renting":[
+         "Daily","Weekly"
+       ],
+
+       "movieSearch":[
+                {
+                    "MovieName":"Drama-1",
+                    "MovieType":"drama",
+                    "status": true,
+                    "available": "10-feb-2019",
+                    "language": "Tamil",
+                    "checked":false,
+                    "amount": 2000
+                    
+                  },
+                  {
+                    "MovieName":"Movie-1",
+                    "MovieType":"movie",
+                    "status": false,
+                    "available": "10-feb-2019",
+                    "language": "Tamil",
+                    "checked":false,
+                    "amount": 5000
+                  
+                },
+                {
+                    "MovieName":"Movie-2",
+                    "MovieType":"movie",
+                    "status": true,
+                    "available": "10-feb-2019",
+                    "language": "Sinhala",
+                    "checked":false,
+                    "amount": 3000
+                  
+                },
+                {
+                    "MovieName":"Drama-2",
+                    "MovieType":"drama",
+                    "status": true,
+                    "available": "10-feb-2019",
+                    "language": "English",
+                     "checked":false,
+                     "amount": 1000
+                   
+                }
+               
+            
+           
+       ]
+}
